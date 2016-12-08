@@ -1,0 +1,27 @@
+{
+  "name": "OmnApp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "~1.15.1",
+    "connect-flash": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.13.4",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.14.1",
+    "express-validator": "^2.21.0",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
